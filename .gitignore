@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+.DS_Store
+*.log
+# Keep private credentials and user uploads out of GitHub
+/apple-pay-certs/
+/uploads/
+attached_assets/*.pdf
+attached_assets/*.p8
+attached_assets/*.p12
+attached_assets/*.pem
+attached_assets/*.key
+attached_assets/*.pfx
+attached_assets/._*
+**/._*
+client/public/.well-known/apple-developer-merchantid-domain-association*

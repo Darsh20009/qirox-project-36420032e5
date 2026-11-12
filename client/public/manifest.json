@@ -1,0 +1,51 @@
+{
+  "name": "جمعية معين لخدمات الحج والعمرة",
+  "short_name": "معين",
+  "description": "جمعية أهلية من مكة المكرمة تُعنى بالتوعية والإرشاد والرعاية والضيافة للحجاج والمعتمرين والزوار.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#f6faef",
+  "theme_color": "#104b34",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "تبرع الآن",
+      "short_name": "تبرع",
+      "description": "ساهم في برامج الجمعية",
+      "url": "/donate",
+      "icons": [{ "src": "/images/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "مشاريعنا",
+      "short_name": "مشاريع",
+      "description": "تصفح مشاريع الجمعية",
+      "url": "/campaigns",
+      "icons": [{ "src": "/images/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "تواصل معنا",
+      "short_name": "تواصل",
+      "description": "تواصل مع الجمعية",
+      "url": "/contact",
+      "icons": [{ "src": "/images/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "icons": [
+    { "src": "/images/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/images/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "categories": ["charity", "social"]
+}
